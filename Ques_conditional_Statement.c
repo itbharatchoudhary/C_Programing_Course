@@ -122,8 +122,6 @@
 //   return 0;
 // }
 
-
-
 // #include <stdio.h>
 // #include <conio.h>
 // int main()
@@ -143,3 +141,37 @@
 //   printf("\nfinal amount : %f ", final_amount);
 //   return 0;
 // }
+
+
+
+// Write a C program to accept a number from the user and check whether the given number is a prime number or not.
+
+// #include <stdio.h>
+// #include <conio.h>
+// int main()
+// {
+//     int i, n, flag = 0;
+//     printf("enter a number : ");
+//     scanf("%d", &n);
+//     if (n <= 0)
+//         printf("the %d is not prime number ", n);
+//     else
+//     {
+//         for (i = 2; i <= n / 2; i++)
+//         {
+//             if (n % i == 0)
+//             {
+//                 flag = 1;
+//                 break;
+//             }
+//         }
+//         if (flag == 0)
+//             printf("the %d is a prime number ", n);
+//         else
+//             printf("the %d is not prime number ", n);
+//     }
+//     return 0;
+// }
+
+
+
